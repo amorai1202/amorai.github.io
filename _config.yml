@@ -15,7 +15,7 @@ description              : &description "personal description"
 url                      : https://amorai1202.github.io 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "amorai1202/amorai1202.github.io"
-theme			 : jekyll-theme-minimal
+theme			 : minima
 
 
 # Site Author - The following control what appear as part of the author content on the side bar.
