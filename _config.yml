@@ -12,9 +12,10 @@ title                    : "Amor's Homepage"
 title_separator          : "-"
 name                     : &name "Amor Ai"
 description              : &description "personal description"
-url                      : https://amorai.github.io 
+url                      : https://amorai1202.github.io 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "amorai1202/amorai.github.io"
+repository               : "amorai1202/amorai1202.github.io"
+theme			 : jekyll-theme-minimal
 
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -211,7 +212,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
