@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Amor's Homepage"
+title                    : "Homepage"
 title_separator          : "-"
 name                     : &name "Amor Ai"
 description              : &description "personal description"
