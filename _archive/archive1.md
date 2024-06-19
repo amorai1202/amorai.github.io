@@ -1,7 +1,11 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-collection: portfolio
+title: "Students of kindness"
+collection: archive
+excerpt: "Excerpt"
+date: 2024-01-22
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+The insights from a class I was a part of were crafted into a really nice [blog post](https://www.bps.org.uk/blog/students-kindness).
+
+In brief, each of us can make the world a little kinder, a little more trusting, a little more connected, and that it can start with something as simple as “hello.”
+
