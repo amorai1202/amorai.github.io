@@ -19,5 +19,5 @@ main:
   - title: "Archive"
     url: /archive/
     
-  - title: "About"
-     url: /aboutme/
+#  - title: "About"
+#    url: /pages/aboutme.md
