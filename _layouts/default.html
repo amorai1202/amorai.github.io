@@ -16,23 +16,33 @@
 <p class="p1"><span class="s1">---</span></p>
 <p class="p1"><span class="s1">layout: compress</span></p>
 <p class="p1"><span class="s1">---</span></p>
+<p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">{% include base_path %}</span></p>
-<p class="p1"><span class="s1">{% include head.html %}</span></p>
-<p class="p1"><span class="s1">{% include head/custom.html %}</span></p>
-<p class="p1"><span class="s1">{% include browser-upgrade.html %}</span></p>
 <p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">&lt;!-- Password Protection JavaScript --&gt;</span></p>
-<p class="p1"><span class="s1">&lt;script&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>const passwordVerified = sessionStorage.getItem('passwordVerified');</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>if (!passwordVerified &amp;&amp; window.location.pathname === '{{ page.url }}' &amp;&amp; window.location.pathname !== '{{ site.baseurl }}/login.html') {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>window.location.href = '{{ site.baseurl }}/login.html';</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
-<p class="p1"><span class="s1">&lt;/script&gt;</span></p>
+<p class="p1"><span class="s1">&lt;!doctype html&gt;</span></p>
+<p class="p1"><span class="s1">&lt;html lang="{{ site.locale | slice: 0,2 }}" class="no-js"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;head&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>{% include head.html %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>{% include head/custom.html %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/head&gt;</span></p>
 <p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">{% include masthead.html %}</span></p>
-<p class="p1"><span class="s1">{{ content }}</span></p>
-<p class="p1"><span class="s1">{% include footer/custom.html %}</span></p>
-<p class="p1"><span class="s1">{% include footer.html %}</span></p>
-<p class="p1"><span class="s1">{% include scripts.html %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;body&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>{% include browser-upgrade.html %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>{% include masthead.html %}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>{{ content }}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="page__footer"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;footer&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>{% include footer/custom.html %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>{% include footer.html %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/footer&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>{% include scripts.html %}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/body&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
 </body>
 </html>
