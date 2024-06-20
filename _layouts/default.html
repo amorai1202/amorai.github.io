@@ -12,21 +12,8 @@
   </style>
 </head>
 <body>
-<p class="p1"><span class="s1">--- layout: compress ---</span></p>
-<p class="p1"><span class="s1">&lt;script&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>const passwordVerified = sessionStorage.getItem('passwordVerified');</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>if (!passwordVerified) {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>window.location.href = 'login.html';</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
-<p class="p1"><span class="s1">&lt;/script&gt;</span></p>
-<p class="p1"><span class="s1">{% include base_path %}</span></p>
-<p class="p1"><span class="s1">{% include head.html %}</span></p>
-<p class="p1"><span class="s1">{% include head/custom.html %}</span></p>
-<p class="p1"><span class="s1">{% include browser-upgrade.html %}</span></p>
-<p class="p1"><span class="s1">{% include masthead.html %}</span></p>
-<p class="p1"><span class="s1">{{ content }}</span></p>
-<p class="p1"><span class="s1">{% include footer/custom.html %}</span></p>
-<p class="p1"><span class="s1">{% include footer.html %}</span></p>
+<p class="p1"><span class="s1">--- layout: compress --- {% include base_path %} {% include head.html %} {% include head/custom.html %} {% include browser-upgrade.html %} {% include masthead.html %} {{ content }}</span></p>
+<p class="p1"><span class="s1">{% include footer/custom.html %} {% include footer.html %}</span></p>
 <p class="p1"><span class="s1">{% include scripts.html %}</span></p>
 </body>
 </html>

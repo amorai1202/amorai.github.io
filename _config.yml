@@ -112,6 +112,14 @@ atom_feed:
   hide                   : false     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
+# Password Protection
+password_protect:
+  enabled: true
+  login_path: "/login.html"
+  protected_paths:
+    - "/index.html"
+    - "/about.html"
+    - "/contact.html"
 
 # SEO Related
 google_site_verification :
@@ -201,17 +209,17 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+  sports:
+    output: true
+    permalink: /:collection/:path/
+  archive:
     output: true
     permalink: /:collection/:path/
   publications:
     output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: false
     permalink: /:collection/:path/
 
 
