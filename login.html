@@ -12,6 +12,9 @@
   </style>
 </head>
 <body>
+<p class="p1"><span class="s1">---</span></p>
+<p class="p1"><span class="s1">layout: null</span></p>
+<p class="p1"><span class="s1">---</span></p>
 <p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
 <p class="p1"><span class="s1">&lt;html lang="en"&gt;</span></p>
 <p class="p1"><span class="s1">&lt;head&gt;</span></p>
@@ -63,7 +66,8 @@
 <p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>const password = document.getElementById('password').value;</span></p>
 <p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>const correctPassword = 'yourpassword'; // Replace with your actual password</span></p>
 <p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>if (password === correctPassword) {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>window.location.href = 'https://amorai1202.github.io'; // Replace with the URL of your protected page</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>sessionStorage.setItem('passwordVerified', 'true');</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>window.location.href = '{{ https://amorai1202.github.io/ }}'; // Redirect to homepage after login</span></p>
 <p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>} else {</span></p>
 <p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>document.getElementById('error-message').innerText = 'Incorrect password, please try again.';</span></p>
 <p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>}</span></p>
