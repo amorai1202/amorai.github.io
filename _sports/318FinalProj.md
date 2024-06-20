@@ -1,7 +1,7 @@
 ---
 title: "Does Swinging on the First Pitch Lead to Better Decisions?"
 collection: sports
-permalink: /sports/causal_swing
+permalink: /talks/causal_swing
 date: 2023-05-25
 ---
 
