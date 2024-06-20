@@ -1,14 +1,14 @@
 # main links links
 main:
 
-  - title: "Research"
+  - title: "Research" # Originally Portfolio
     url: /portfolio/
 
 # - title: "Publications"
 #  url: /publications/
 
-  - title: "Sports"
-    url: /talks/    
+  - title: "Sports" # Originally Talks
+    url: /sports/    
 
 #  - title: "Teaching"
 #    url: /teaching/    
