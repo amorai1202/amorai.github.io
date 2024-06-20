@@ -1,17 +1,17 @@
 # main links links
 main:
 
-  - title: "Portfolio"
+  - title: "Research"
     url: /portfolio/
 
 # - title: "Publications"
 #  url: /publications/
 
-  - title: "Talks"
+  - title: "Sports"
     url: /talks/    
 
-  - title: "Teaching"
-    url: /teaching/    
+#  - title: "Teaching"
+#    url: /teaching/    
     
   - title: "CV"
     url: /files/CV.pdf
@@ -19,5 +19,5 @@ main:
   - title: "Archive"
     url: /archive/
     
-#  - title: "About"
-#    url: /pages/aboutme.md
+  - title: "About"
+    url: /pages/aboutme.md
